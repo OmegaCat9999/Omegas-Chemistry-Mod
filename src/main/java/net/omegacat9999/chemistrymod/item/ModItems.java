@@ -17,6 +17,7 @@ public class ModItems {
     // Element_ELEMENT Items
     public static final Item CARBON_ELEMENT = registerItem("carbon_element", new Element_ElementItem(new Item.Settings()));
     public static final Item HYDROGEN_ELEMENT = registerItem("hydrogen_element", new Element_ElementItem(new Item.Settings()));
+    public static final Item OXYGEN_ELEMENT = registerItem("oxygen_element", new Element_ElementItem(new Item.Settings()));
     // Element Items
     public static final Item CARBON = registerItem("carbon", new Item(new Item.Settings()));
     public static final Item HYDROGEN = registerItem("hydrogen", new Item(new Item.Settings()));
@@ -24,6 +25,7 @@ public class ModItems {
     // Organic
     public static final Item ETHANE = registerItem("compound_ethane", new OrganicCompoundItem(new Item.Settings(), CompoundItemArrayData.ETHANE_C_P, CompoundItemArrayData.ETHANE_C_R));
     public static final Item METHANE = registerItem("compound_methane", new OrganicCompoundItem(new Item.Settings(), CompoundItemArrayData.METHANE_C_P, CompoundItemArrayData.METHANE_C_R));
+    public static final Item WATER = registerItem("compound_water", new OrganicCompoundItem(new Item.Settings(), CompoundItemArrayData.WATER_C_P, CompoundItemArrayData.WATER_C_R));
     // Inorganic
     // Add Item(s) to Vanilla Item Group (unused, may remove.)
     /*

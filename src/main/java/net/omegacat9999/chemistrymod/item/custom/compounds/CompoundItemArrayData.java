@@ -10,6 +10,8 @@ public class CompoundItemArrayData {
     public static ArrayList<String> METHANE_C_R = new ArrayList<String>(Arrays.asList("C:1", "H:4"));
     public static float[] ETHANE_C_P = {0.25f,0f,0f,0f,0f,0.75f};
     public static ArrayList<String> ETHANE_C_R = new ArrayList<String>(Arrays.asList("C:2", "H:6"));
+    public static float[] WATER_C_P = {0.66f,0f,0f,0f,0f,0f,0f,0.33f};
+    public static ArrayList<String> WATER_C_R = new ArrayList<String>(Arrays.asList("H:2", "O:1"));
 
     // INORGANIC
 
