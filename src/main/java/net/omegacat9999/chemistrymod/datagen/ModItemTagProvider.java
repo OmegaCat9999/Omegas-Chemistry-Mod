@@ -18,6 +18,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ModTags.Items.ELEMENT_ELEMENT)
                 .add(ModItems.CARBON_ELEMENT)
-                .add(ModItems.HYDROGEN_ELEMENT);
+                .add(ModItems.HYDROGEN_ELEMENT)
+                .add(ModItems.OXYGEN_ELEMENT)
+                .add(ModItems.CHLORINE_ELEMENT)
+                .add(ModItems.SODIUM_ELEMENT);
+
     }
 }

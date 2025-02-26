@@ -21,8 +21,14 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CARBON, Models.GENERATED);
         itemModelGenerator.register(ModItems.CARBON_ELEMENT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.HYDROGEN_ELEMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHLORINE_ELEMENT, Models.GENERATED);
         itemModelGenerator.register(ModItems.HYDROGEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HYDROGEN_ELEMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SODIUM_ELEMENT, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.METHANE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ETHANE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SODIUM_CHLORIDE, Models.GENERATED);
     }
 }
