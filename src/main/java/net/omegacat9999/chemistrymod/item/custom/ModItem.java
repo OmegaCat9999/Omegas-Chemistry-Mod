@@ -1,6 +1,5 @@
 package net.omegacat9999.chemistrymod.item.custom;
 
-import com.google.gson.*;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -9,6 +8,7 @@ import net.minecraft.text.Text;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class ModItem extends Item {
     public ModItem(Settings settings) {
@@ -16,6 +16,7 @@ public class ModItem extends Item {
     }
 
     public String molecular_formula;
+    public String empirical_formula;
     public float[] composition_percent = new float[128];
     public ArrayList<String> composition_ratio = new ArrayList<String>();
     /* composition_ratio: {
@@ -32,10 +33,33 @@ public class ModItem extends Item {
         return getName().getString().toLowerCase();
     }
 
-    private void build_molecular_formula() {
-        for (String s : composition_ratio) {
-            molecular_formula += s.substring(0, s.indexOf(':'));
-            molecular_formula += s.substring(s.indexOf(':') + 1);
+    public int gcd(int a, int b){
+        if (b == 0)
+            return a;
+        else
+            return gcd(b, a % b);
+    }
+
+    private void formula (String formula_type){
+        if (Objects.equals(formula_type, "molecular")) {
+            for (String s : composition_ratio) {
+                molecular_formula += s.substring(0, s.indexOf(':'));
+                molecular_formula += s.substring(s.indexOf(':') + 1);
+            }
+
+        } else if (Objects.equals(formula_type, "empirical")){
+            ArrayList<String> amounts = new ArrayList<String>();
+            for (String s : composition_ratio) {
+                amounts.add(s.substring(s.indexOf(':') + 1));
+            }
+            int gcd = Integer.getInteger(amounts.getFirst());
+            for (int i = 1; i < amounts.size(); i++) {
+                gcd = gcd(gcd, Integer.getInteger(amounts.get(i)));
+            }
+            for (String s : composition_ratio) {
+                empirical_formula += s.substring(0, s.indexOf(':'));
+                empirical_formula += Integer.toString(Integer.getInteger(s.substring(s.indexOf(':') + 1))/gcd);
+            }
         }
     }
 
