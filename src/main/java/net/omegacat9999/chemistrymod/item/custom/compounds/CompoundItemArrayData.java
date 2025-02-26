@@ -13,8 +13,7 @@ public class CompoundItemArrayData {
     public static float[] WATER_C_P = {0.66f,0f,0f,0f,0f,0f,0f,0.33f};
     public static ArrayList<String> WATER_C_R = new ArrayList<String>(Arrays.asList("H:2", "O:1"));
     public static float[] SODIUM_CHLORIDE_C_P = {0f,0f,0f,0f,0f,0f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,0f,0.5f,0f};
-    public static ArrayList<String> SODIUM_CHLORIDE_C_R = new ArrayList<String>(Arrays.asList("Na:2", "Cl:1"));
 
     // INORGANIC
-
+    public static ArrayList<String> SODIUM_CHLORIDE_C_R = new ArrayList<String>(Arrays.asList("Na:2", "Cl:1"));
 }
