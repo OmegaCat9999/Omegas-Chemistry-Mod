@@ -16,6 +16,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.HYDROGEN_ELEMENT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.HYDROGEN_ELEMENT);
                         entries.add(ModItems.CARBON_ELEMENT);
+                        entries.add(ModItems.OXYGEN_ELEMENT);
+                        entries.add(ModItems.SODIUM_ELEMENT);
+                        entries.add(ModItems.CHLORINE_ELEMENT);
                     }).build());
 
     public static final ItemGroup ELEMENT_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -32,6 +35,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.METHANE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.METHANE);
                         entries.add(ModItems.ETHANE);
+                        entries.add(ModItems.WATER);
+                        entries.add(ModItems.SODIUM_CHLORIDE);
                     }).build());
 
 
