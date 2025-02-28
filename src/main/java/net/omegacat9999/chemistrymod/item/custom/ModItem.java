@@ -11,10 +11,16 @@ import java.util.List;
 import java.util.Objects;
 
 public class ModItem extends Item {
-    public ModItem(Settings settings) {
+    public ModItem(Settings settings, float boiling_point, float melting_point, float density) {
         super(settings);
+        this.boiling_point = boiling_point;
+        this.melting_point = melting_point;
+        this.density = density;
     }
 
+    public float boiling_point;
+    public float melting_point;
+    public float density;
     public String molecular_formula;
     public String empirical_formula;
     public float[] composition_percent = new float[128];

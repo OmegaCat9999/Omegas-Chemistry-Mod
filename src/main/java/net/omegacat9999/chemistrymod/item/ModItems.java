@@ -25,9 +25,15 @@ public class ModItems {
     public static final Item HYDROGEN = registerItem("hydrogen", new Item(new Item.Settings()));
     // Compound Items
     // Organic
-    public static final Item METHANE = registerItem("compound_methane", new OrganicCompoundItem(new Item.Settings(), CompoundItemArrayData.METHANE_C_P, CompoundItemArrayData.METHANE_C_R));
-    public static final Item ETHANE = registerItem("compound_ethane", new OrganicCompoundItem(new Item.Settings(), CompoundItemArrayData.ETHANE_C_P, CompoundItemArrayData.ETHANE_C_R));
-    public static final Item WATER = registerItem("compound_water", new OrganicCompoundItem(new Item.Settings(), CompoundItemArrayData.WATER_C_P, CompoundItemArrayData.WATER_C_R));
+    public static final Item METHANE = registerItem("compound_methane",new OrganicCompoundItem(
+            new Item.Settings(),  "alkane", "l",1, -162, -186, 0.657f,
+            CompoundItemArrayData.METHANE_C_P, CompoundItemArrayData.METHANE_C_R));
+    public static final Item ETHANE = registerItem("compound_ethane", new OrganicCompoundItem(
+            new Item.Settings(),  "alkane", "l",2, -89, -183, 1.3562f,
+            CompoundItemArrayData.ETHANE_C_P, CompoundItemArrayData.ETHANE_C_R));
+    public static final Item WATER = registerItem("compound_water", new OrganicCompoundItem(
+            new Item.Settings(),  "water", "l", -1, 100, 0, 1,
+            CompoundItemArrayData.WATER_C_P, CompoundItemArrayData.WATER_C_R));
     // Inorganic
     public static final Item SODIUM_CHLORIDE = registerItem("compound_sodium_chloride", new InorganicCompoundItem(new Item.Settings(), CompoundItemArrayData.SODIUM_CHLORIDE_C_P, CompoundItemArrayData.SODIUM_CHLORIDE_C_R));
     // Add Item(s) to Vanilla Item Group (unused, may remove.)
