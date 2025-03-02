@@ -23,6 +23,7 @@ public class ModItem extends Item {
     public float density;
     public String molecular_formula;
     public String empirical_formula;
+    public String structural_formula;
     public float[] composition_percent = new float[128];
     public ArrayList<String> composition_ratio = new ArrayList<String>();
     /* composition_ratio: {
