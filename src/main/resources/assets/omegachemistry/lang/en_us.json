@@ -35,12 +35,12 @@
   "tooltip.omegachemistry.butane.molecular_formula": "Molecular Formula: C₄H₁₀",
   "tooltip.omegachemistry.isobutane.molecular_formula": "Molecular Formula: C₄H₁₀",
 
-  "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.basic": "Atomic Number: 50    | Atomic Weight: 118.71g/mol",
-  "tooltip.omegachemistry.hydrogen_element.phase_density.basic": "Phase          : Solid | Density       : 7.3g/cm3",
-  "tooltip.omegachemistry.hydrogen_element.boiling_point.basic": "Boiling Point: -252.9ºC = -423.2ºF = -14K",
-  "tooltip.omegachemistry.hydrogen_element.melting_point.basic": "Melting Point: -259.2ºC = -434.5ºF = -20.3K",
-  "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.advanced": "Atomic Number: 50    | Atomic Weight: 118.71011219607g/mol",
-  "tooltip.omegachemistry.hydrogen_element.phase_density.advanced": "Phase          : Solid | Density       : 7.287g/cm3",
+  "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.basic": "Atomic Number: 1     | Atomic Weight: 1.008g/mol",
+  "tooltip.omegachemistry.hydrogen_element.phase_density.basic": "Phase          : Gas  | Density       : 0.0⁴9g/cm3",
+  "tooltip.omegachemistry.hydrogen_element.boiling_point.basic": "Boiling Point: -252.9ºC   = -423.2ºF  = -14K",
+  "tooltip.omegachemistry.hydrogen_element.melting_point.basic": "Melting Point: -259.2ºC  = -434.5ºF  = -20.3K",
+  "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.advanced": "Atomic Number: 1   | Atomic Weight: 1.00797094202593g/mol",
+  "tooltip.omegachemistry.hydrogen_element.phase_density.advanced": "Phase          : Gas  | Density       : 0.0⁴8988g/cm3",
   "tooltip.omegachemistry.hydrogen_element.boiling_point.advanced": "Boiling Point: -252.879ºC = -423.18ºF = -13.99K",
   "tooltip.omegachemistry.hydrogen_element.melting_point.advanced": "Melting Point: -259.16ºC = -434.49ºF = -20.27K"
 }
