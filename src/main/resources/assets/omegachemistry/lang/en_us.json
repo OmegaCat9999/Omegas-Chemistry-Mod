@@ -3,14 +3,44 @@
   "item.omegachemistry.carbon_element": "Carbon",
   "item.omegachemistry.hydrogen": "Hydrogen Gas",
   "item.omegachemistry.hydrogen_element": "Hydrogen",
+  "item.omegachemistry.oxygen_element": "Oxygen",
+  "item.omegachemistry.sodium_element": "Sodium",
+  "item.omegachemistry.chlorine_element": "Chlorine",
+
   "item.omegachemistry.compound_methane": "Methane",
+  "item.omegachemistry.compound_ethane": "Ethane",
+  "item.omegachemistry.compound_propane": "Propane",
+  "item.omegachemistry.compound_butane": "Butane",
 
   "itemgroup.omegachemistry.elements": "Elements (states)",
   "itemgroup.omegachemistry.elements_element": "Elements",
   "itemgroup.omegachemistry.compounds": "Compounds",
 
-  "tooltip.omegachemistry.carbon_element.advanced": "",
+  "tooltip.omegachemistry.hydrogen_element.basic": "",
   "tooltip.omegachemistry.carbon_element.basic": "",
+
   "tooltip.omegachemistry.hydrogen_element.advanced": "",
-  "tooltip.omegachemistry.hydrogen_element.basic": ""
+  "tooltip.omegachemistry.carbon_element.advanced": "",
+
+  "tooltip.omegachemistry.hydrogen_element.molecular_formula": "Molecular Formula: H₂",
+  "tooltip.omegachemistry.carbon_element.molecular_formula": "Molecular Formula: C",
+  "tooltip.omegachemistry.oxygen_element.molecular_formula": "Molecular Formula: O₂",
+  "tooltip.omegachemistry.sodium_element.molecular_formula": "Molecular Formula: Na",
+  "tooltip.omegachemistry.chlorine_element.molecular_formula": "Molecular Formula: Cl₂",
+
+
+  "tooltip.omegachemistry.methane.molecular_formula": "Molecular Formula: CH₄",
+  "tooltip.omegachemistry.ethane.molecular_formula": "Molecular Formula: C₂H₆",
+  "tooltip.omegachemistry.propane.molecular_formula": "Molecular Formula: C₃H₈",
+  "tooltip.omegachemistry.butane.molecular_formula": "Molecular Formula: C₄H₁₀",
+  "tooltip.omegachemistry.isobutane.molecular_formula": "Molecular Formula: C₄H₁₀",
+
+  "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.basic": "Atomic Number: 50    | Atomic Weight: 118.71g/mol",
+  "tooltip.omegachemistry.hydrogen_element.phase_density.basic": "Phase          : Solid | Density       : 7.3g/cm3",
+  "tooltip.omegachemistry.hydrogen_element.boiling_point.basic": "Boiling Point: -252.9ºC = -423.2ºF = -14K",
+  "tooltip.omegachemistry.hydrogen_element.melting_point.basic": "Melting Point: -259.2ºC = -434.5ºF = -20.3K",
+  "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.advanced": "Atomic Number: 50    | Atomic Weight: 118.71011219607g/mol",
+  "tooltip.omegachemistry.hydrogen_element.phase_density.advanced": "Phase          : Solid | Density       : 7.287g/cm3",
+  "tooltip.omegachemistry.hydrogen_element.boiling_point.advanced": "Boiling Point: -252.879ºC = -423.18ºF = -13.99K",
+  "tooltip.omegachemistry.hydrogen_element.melting_point.advanced": "Melting Point: -259.16ºC = -434.49ºF = -20.27K"
 }

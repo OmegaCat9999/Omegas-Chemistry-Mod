@@ -31,6 +31,7 @@ public class ModItem extends Item {
         "hydrogen:4"
     }
     */
+    public Screen Screen = new Screen(Text.translatable("screen.omegachemistry")){};
     public void composition_init(float[] c_p, ArrayList<String> c_r){
         this.composition_percent = c_p;
         this.composition_ratio = c_r;
@@ -73,10 +74,18 @@ public class ModItem extends Item {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".molecular_formula"));
-        if(Screen.hasShiftDown()){
+        if(net.minecraft.client.gui.screen.Screen.hasShiftDown()){
             tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".advanced"));
+            tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".atomicnumber_atomicweight.advanced"));
+            tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".phase_density.advanced"));
+            tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".boiling_point.advanced"));
+            tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".melting_point.advanced"));
         } else {
             tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".basic"));
+            tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".atomicnumber_atomicweight.basic"));
+            tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".phase_density.basic"));
+            tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".boiling_point.basic"));
+            tooltip.add(Text.translatable("tooltip.omegachemistry." + getModItemName() + ".melting_point.basic"));
         }
         super.appendTooltip(stack, context, tooltip, type);
     }

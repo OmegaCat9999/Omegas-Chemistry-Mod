@@ -16,19 +16,19 @@ import net.omegacat9999.chemistrymod.item.custom.element_element.Element_Element
 public class ModItems {
     // Element_ELEMENT Items
     public static final Item CARBON_ELEMENT = registerItem("carbon_element", new Element_ElementItem(
-            new Item.Settings(), Element_ElementItemData.CARBON_12_S_P_C,
+            new Item.Settings(), "carbon-12", Element_ElementItemData.CARBON_12_S_P_C,
             0, 0, 0));
     public static final Item HYDROGEN_ELEMENT = registerItem("hydrogen_element", new Element_ElementItem(
-            new Item.Settings(), Element_ElementItemData.HYDROGEN_S_P_C,
+            new Item.Settings(), "hydrogen", Element_ElementItemData.HYDROGEN_S_P_C,
             0, 0, 0));
     public static final Item OXYGEN_ELEMENT = registerItem("oxygen_element", new Element_ElementItem(
-            new Item.Settings(), Element_ElementItemData.OXYGEN_S_P_C,
+            new Item.Settings(), "oxygen-8", Element_ElementItemData.OXYGEN_S_P_C,
             0, 0, 0));
     public static final Item SODIUM_ELEMENT = registerItem("sodium_element", new Element_ElementItem(
-            new Item.Settings(), Element_ElementItemData.SODIUM_S_P_C,
+            new Item.Settings(), "sodium-23", Element_ElementItemData.SODIUM_S_P_C,
             0, 0, 0));
     public static final Item CHLORINE_ELEMENT = registerItem("chlorine_element", new Element_ElementItem(
-            new Item.Settings(), Element_ElementItemData.CHLORINE_S_P_C,
+            new Item.Settings(),"chlorine-35",Element_ElementItemData.CHLORINE_S_P_C,
             0, 0, 0));
     // Element Items
     public static final Item CARBON = registerItem("carbon", new Item(new Item.Settings()));
