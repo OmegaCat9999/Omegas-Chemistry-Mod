@@ -53,13 +53,8 @@ public class ModItems {
             CompoundItemData.WATER_C_P, CompoundItemData.WATER_C_R));
     // Inorganic
     public static final Item SODIUM_CHLORIDE = registerItem("compound_sodium_chloride", new InorganicCompoundItem(
-            new Item.Settings(), "s", "cl_salt", 0, 0, 0, CompoundItemData.SODIUM_CHLORIDE_C_P, CompoundItemData.SODIUM_CHLORIDE_C_R));
-    // Add Item(s) to Vanilla Item Group (unused, may remove.)
-    /*
-    private static void AddItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-
-    }
-    */
+            new Item.Settings(), "s", "cl_salt", 0, 0, 0,
+            CompoundItemData.SODIUM_CHLORIDE_C_P, CompoundItemData.SODIUM_CHLORIDE_C_R));
 
     // Register Item(s)
     private static Item registerItem(String name, Item item) {

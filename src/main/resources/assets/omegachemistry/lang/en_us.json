@@ -37,10 +37,28 @@
 
   "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.basic": "Atomic Number: 1     | Atomic Weight: 1.008g/mol",
   "tooltip.omegachemistry.hydrogen_element.phase_density.basic": "Phase          : Gas  | Density       : 0.0⁴9g/cm3",
-  "tooltip.omegachemistry.hydrogen_element.boiling_point.basic": "Boiling Point: -252.9ºC   = -423.2ºF  = -14K",
-  "tooltip.omegachemistry.hydrogen_element.melting_point.basic": "Melting Point: -259.2ºC  = -434.5ºF  = -20.3K",
-  "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.advanced": "Atomic Number: 1   | Atomic Weight: 1.00797094202593g/mol",
+  "tooltip.omegachemistry.hydrogen_element.boiling_point.basic": "Boiling Point: -252.9ºC    = -423.2ºF  = -14K",
+  "tooltip.omegachemistry.hydrogen_element.melting_point.basic": "Melting Point: -259.2ºC    = -434.5ºF  = -20.3K",
+  "tooltip.omegachemistry.hydrogen_element.atomicnumber_atomicweight.advanced": "Atomic Number: 1     | Atomic Weight: 1.00797094202593g/mol",
   "tooltip.omegachemistry.hydrogen_element.phase_density.advanced": "Phase          : Gas  | Density       : 0.0⁴8988g/cm3",
   "tooltip.omegachemistry.hydrogen_element.boiling_point.advanced": "Boiling Point: -252.879ºC = -423.18ºF = -13.99K",
-  "tooltip.omegachemistry.hydrogen_element.melting_point.advanced": "Melting Point: -259.16ºC = -434.49ºF = -20.27K"
+  "tooltip.omegachemistry.hydrogen_element.melting_point.advanced": "Melting Point: -259.16ºC  = -434.49ºF = -20.27K",
+
+  "tooltip.omegachemistry.carbon_element.atomicnumber_atomicweight.basic": "Atomic Number: 6      | Atomic Weight: 12.011g/mol",
+  "tooltip.omegachemistry.carbon_element.phase_density.basic": "Phase          : Solid  | Density       : 2.27g/cm3",
+  "tooltip.omegachemistry.carbon_element.boiling_point.basic": "Boiling Point: 3527ºC   = 6381ºF    = 3800K",
+  "tooltip.omegachemistry.carbon_element.melting_point.basic": "Melting Point: 3915ºC   = 7079ºF    = 4188K",
+  "tooltip.omegachemistry.carbon_element.atomicnumber_atomicweight.advanced": "Atomic Number: 6      | Atomic Weight: 12.010635561g/mol",
+  "tooltip.omegachemistry.carbon_element.phase_density.advanced": "Phase          : Solid  | Density       : 2.2670g/cm3",
+  "tooltip.omegachemistry.carbon_element.boiling_point.advanced": "Boiling Point: 3527.0ºC = 6380.6ºF = 3800.15K",
+  "tooltip.omegachemistry.carbon_element.melting_point.advanced": "Melting Point: 3915.0ºC = 7079.0ºF = 4188.15K",
+
+  "tooltip.omegachemistry.oxygen_element.atomicnumber_atomicweight.basic": "Atomic Number: 8      | Atomic Weight: 15.999g/mol",
+  "tooltip.omegachemistry.oxygen_element.phase_density.basic": "Phase          : Gas   | Density       : 0.001g/cm3",
+  "tooltip.omegachemistry.oxygen_element.boiling_point.basic": "Boiling Point: -218.8ºC     = -362.8ºF     = 54.4K",
+  "tooltip.omegachemistry.oxygen_element.melting_point.basic": "Melting Point: -183ºC      = -297.3ºF     = 90.2K",
+  "tooltip.omegachemistry.oxygen_element.atomicnumber_atomicweight.advanced": "Atomic Number: 8      | Atomic Weight: 15.999404924g/mol",
+  "tooltip.omegachemistry.oxygen_element.phase_density.advanced": "Phase          : Gas   | Density       : 0.001429g/cm3",
+  "tooltip.omegachemistry.oxygen_element.boiling_point.advanced": "Boiling Point: -218.79ºC  = -362.82ºF    = 54.36K",
+  "tooltip.omegachemistry.oxygen_element.melting_point.advanced": "Melting Point: -182.962ºC = -297.33ºF    = 90.19K"
 }
